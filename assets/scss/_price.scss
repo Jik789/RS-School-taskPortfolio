@@ -1,0 +1,70 @@
+.price-container {
+  padding: 100px 20px 100px 20px;
+  background-color: black;
+}
+
+.price__title {
+  margin-bottom: 60px;
+}
+
+.price__list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.tariff {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 40px;
+  border: solid 3px $beige;
+}
+
+.tariff__name {
+  font-family: 'Merriweather', serif;
+  font-size: 28px;
+  line-height: 56px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.tariff__price {
+  font-family: 'Merriweather', serif;
+  font-size: 24px;
+  line-height: 48px;
+  color: $beige;
+  margin-bottom: 20px;
+}
+
+.tariff__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+  width: 364px;
+}
+
+.tariff__discription {
+  display: block;
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  line-height: 36px;
+  color: white;
+}
+
+@media (max-width: $md1) {
+  .price-container {
+    padding: 100px 20px 55px 20px;
+    background-color: black;
+  }
+  .price__title {
+    margin-bottom: 70px;
+  }
+  .tariff {
+    margin: 0 auto 25px auto;
+    padding: 40px 24px;
+  }
+}
